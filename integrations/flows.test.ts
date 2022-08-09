@@ -10,17 +10,17 @@ import {
 	createDataForSimpleVisit,
 	editDataFromSimpleVisit,
 	registerNewPatient,
-} from "../../src/ctc/ctc";
-import * as ctc from "../../src/ctc/ctc";
+} from "../src/ctc/ctc";
+import * as ctc from "../src/ctc/ctc";
 
 import {
 	executeChain,
 	prepareLazyExecutors,
 	runTransaction,
-} from "../../src/ctc/store";
+} from "../src/ctc/store";
 import { addDays, format } from "date-fns";
-import { Organization } from "../../src/object";
-import { getMockedStore, generateId } from "../../__mocks__/dummy-store";
+import { Organization } from "../src/object";
+import { getMockedStore, generateId } from "../__mocks__/dummy-store";
 
 /**
  * Id generator

@@ -19,7 +19,8 @@
 		"ansi-styles": "^6.1.0",
 		"nanoid": "^4.0.0",
 		"nodemon": "^2.0.16",
-		"ts-jest": "^28.0.5",
+		"jest": "^27.5.1",
+		"ts-jest": "^28.0.7",
 		"ts-node-dev": "^2.0.0",
 		"typescript": "^4.7.4"
 	},
