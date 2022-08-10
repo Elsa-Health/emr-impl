@@ -451,3 +451,13 @@ export function reference<RF extends string>(
 		id,
 	};
 }
+
+export function referred<
+	R extends P.Resource<string, P.Mapping<string, any>, string>
+>(resource: R): P.ReferenceIdentifier<R["resourceType"]> {
+	return {
+		resourceType: "Reference",
+		resourceReferenced: resource.resourceType,
+		id: resource.id,
+	};
+}
